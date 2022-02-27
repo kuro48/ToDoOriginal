@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF4EEA7927C6D7A80097C654 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EEA7827C6D7A80097C654 /* NextViewController.swift */; };
+		BFDFDA9727CB5A6900EE3CA7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDFDA9627CB5A6900EE3CA7 /* DetailViewController.swift */; };
 		BFF5CF6227C36AFB00A1FD30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CF6127C36AFB00A1FD30 /* AppDelegate.swift */; };
 		BFF5CF6427C36AFB00A1FD30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CF6327C36AFB00A1FD30 /* SceneDelegate.swift */; };
 		BFF5CF6627C36AFB00A1FD30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5CF6527C36AFB00A1FD30 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		BF4EEA7827C6D7A80097C654 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		BFDFDA9627CB5A6900EE3CA7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BFF5CF5E27C36AFB00A1FD30 /* ToDoOriginal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoOriginal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF5CF6127C36AFB00A1FD30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF5CF6327C36AFB00A1FD30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				BFF5CF6F27C36AFC00A1FD30 /* Info.plist */,
 				BFF5CF9627C36FA700A1FD30 /* ToDoData.swift */,
 				BF4EEA7827C6D7A80097C654 /* NextViewController.swift */,
+				BFDFDA9627CB5A6900EE3CA7 /* DetailViewController.swift */,
 			);
 			path = ToDoOriginal;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				BF4EEA7927C6D7A80097C654 /* NextViewController.swift in Sources */,
 				BFF5CF6627C36AFB00A1FD30 /* ViewController.swift in Sources */,
 				BFF5CF9727C36FA700A1FD30 /* ToDoData.swift in Sources */,
+				BFDFDA9727CB5A6900EE3CA7 /* DetailViewController.swift in Sources */,
 				BFF5CF6227C36AFB00A1FD30 /* AppDelegate.swift in Sources */,
 				BFF5CF6427C36AFB00A1FD30 /* SceneDelegate.swift in Sources */,
 			);

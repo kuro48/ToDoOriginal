@@ -9,7 +9,11 @@ import Foundation
 import RealmSwift
 
 class Data: Object{
-    @objc dynamic var title: String = ""
-    @objc dynamic var content: String = ""
-    @objc dynamic var date: String = ""
+    @objc dynamic var title: String = "default"
+    @objc dynamic var content: String = "default"
+    @objc dynamic var date: String = "default"
+}
+
+class DataList: Object{
+    let list = List<Data>()
 }

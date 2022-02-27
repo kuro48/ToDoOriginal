@@ -8,7 +8,7 @@
 import UIKit
 import RealmSwift
 
-class NextViewController: UIViewController {
+class NextViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var toDoTilte: UITextField!
     @IBOutlet var toDoDate: UITextField!
     @IBOutlet var toDoContent: UITextView!
@@ -17,6 +17,8 @@ class NextViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        toDoTilte.delegate = self
+        toDoDate.delegate = self
         
 //        textVIewの枠線追加
 //        toDoContent.layer.borderColor = UIColor.black.cgColor
@@ -62,6 +64,6 @@ class NextViewController: UIViewController {
         }
         
         self.navigationController?.popViewController(animated: true)
-    }
+        }
 
 }
